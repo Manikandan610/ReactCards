@@ -1,56 +1,59 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  
+  background-image: linear-gradient(to bottom right, rgb(142, 235, 119), rgb(240, 240, 112));
+  position:fixed;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 .Container{
   display: flex;
-  margin: 20px 20px;
+  margin: 200px 400px;
+  height: 200px;  
+  width: 450px;
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  border-color: red;
+  border-style: dashed;
 }
 .Card1{
-  height: 80px;
-  width: 150px;
-  background-color: yellowgreen;
-  margin-left: 100px;
+  height: 200px;
+  width: 225px;
+  background-color: blue;
+  transition: background-color .15s ease-in-out;
+  /* margin-left: 100px; */
 }
-.Card2{
-  height: 80px;
-  width: 150px;
+/* .Card2{
+  height: 200px;
+  width: 225px;
+  background-color:aqua;
+  /* margin-left: 200px; */
+/* } */ 
+.Card1-change{
+  height: 200px;
+  width: 225px;
+  background-color: aqua;
+  transition: background-color .5s ease;
+}
+/* .Card2-change{ 
+  height: 200px;
+  width: 225px;
   background-color:blue;
-  margin-left: 200px;
-}
+} */
+.Card-p{
+  margin-top: 70px;
+  font-weight: 500;
+  color: white;
+ }
+ .Card-p1{
+  margin-top: 70px;
+  font-weight: 500;
+  color: black;
+ }
+ 
