@@ -25,27 +25,29 @@ body{
 .Card1{
   height: 200px;
   width: 225px;
-  background-color: blue;
+  background-color: white;
   transition: background-color .15s ease-in-out;
   /* margin-left: 100px; */
 }
-/* .Card2{
+.Card2{
   height: 200px;
   width: 225px;
   background-color:aqua;
-  /* margin-left: 200px; */
-/* } */ 
+  transition: background-color .5s ease;
+   /* margin-left: 200px;  */
+} 
 .Card1-change{
   height: 200px;
   width: 225px;
-  background-color: aqua;
+  background-color: blue;
   transition: background-color .5s ease;
 }
-/* .Card2-change{ 
+.Card2-change{ 
   height: 200px;
   width: 225px;
-  background-color:blue;
-} */
+  background-color:lightcoral;
+  transition: background-color .5s ease;
+}
 .Card-p{
   margin-top: 70px;
   font-weight: 500;

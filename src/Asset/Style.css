@@ -1,0 +1,62 @@
+.App {
+    text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  body{
+    
+    background-image: linear-gradient(to bottom right, rgb(142, 235, 119), rgb(240, 240, 112));
+    position:fixed;
+    
+  }
+  
+  .Container{
+    display: flex;
+    margin: 200px 400px;
+    height: 200px;  
+    width: 450px;
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+    border-color: red;
+    border-style: dashed;
+  }
+  .Card1{
+    height: 200px;
+    width: 225px;
+    background-color: white;
+    transition: background-color .15s ease-in-out;
+    /* margin-left: 100px; */
+  }
+  .Card2{
+    height: 200px;
+    width: 225px;
+    background-color:aqua;
+    transition: background-color .5s ease;
+     /* margin-left: 200px;  */
+  } 
+  .Card1-change{
+    height: 200px;
+    width: 225px;
+    background-color: blue;
+    transition: background-color .5s ease;
+  }
+  .Card2-change{ 
+    height: 200px;
+    width: 225px;
+    background-color:lightcoral;
+    transition: background-color .5s ease;
+  }
+  .Card-p{
+    margin-top: 70px;
+    font-weight: 500;
+    color: white;
+   }
+   .Card-p1{
+    margin-top: 70px;
+    font-weight: 500;
+    color: black;
+   }
+   
+  
